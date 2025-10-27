@@ -23,7 +23,7 @@ public class playerPickUpDrop : MonoBehaviour
                 {
                     if (raycastHit.transform.TryGetComponent(out objectGrabbable))
                     {
-                        Debug.Log(raycastHit.transform.name);
+                        
                         objectGrabbable.Grab(objectGrabPointTransform);
                     }
                 }
