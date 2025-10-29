@@ -8,10 +8,12 @@ public class playerPickUpDrop : MonoBehaviour
     [SerializeField] private Transform playerCameraTransform;
     [SerializeField] private Transform objectGrabPointTransform;
     [SerializeField] private LayerMask pickupLayerMask;
-    
+
+
+
     private objectGrabbable objectGrabbable;
     public float pickupDistance = 2f;
-
+    public float throwForce = 6f;
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))
@@ -29,12 +31,18 @@ public class playerPickUpDrop : MonoBehaviour
                 }
             }
             else
-            {
+            { 
                 //objeto en la mano
                 objectGrabbable.Drop();
                 objectGrabbable = null;
             }
             
+        }
+        else if (objectGrabbable != null && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            
+            objectGrabbable.Throw(throwForce);
+            objectGrabbable = null;
         }
     }
 
