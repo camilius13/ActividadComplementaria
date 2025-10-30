@@ -5,15 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    [Header("UI")]
-    [Tooltip("GameObject que contiene todo el panel del menú de pausa (Canvas/Panel)")]
+   
     public GameObject pauseMenuUI;
 
-    [Tooltip("Botón que se selecciona por defecto cuando se abre el menú")]
+   
     public GameObject defaultSelectedButton;
 
-    [Header("Opciones")]
-    [Tooltip("Si true, se pausan también los audios (AudioListener.pause)")]
+   
     public bool pauseAudio = true;
 
     bool isPaused = false;
@@ -27,7 +25,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        // Detecta ESC (usa Input System clásica). Si usas el nuevo Input System, reemplaza por tu callback.
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused) Resume();
