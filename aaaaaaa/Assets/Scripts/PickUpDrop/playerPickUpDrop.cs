@@ -11,7 +11,7 @@ public class playerPickUpDrop : MonoBehaviour
     [SerializeField] private Transform playerCameraTransform;
     [SerializeField] private Transform objectGrabPointTransform;
     [SerializeField] private LayerMask pickupLayerMask;
-
+    [SerializeField] private InspectionObjects inspectObject;
 
 
 
@@ -63,6 +63,16 @@ public class playerPickUpDrop : MonoBehaviour
             objectGrabbable = null;
 
 
+        }
+        else if (objectGrabbable == null && Input.GetKeyDown(KeyCode.I))
+        {
+            
+            Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit objectToInspect, pickupDistance);
+
+            if (objectToInspect.transform.CompareTag("inspectObject")){
+                actualMode.Instance.IsInspecting(true);
+                inspectObject.inspect(objectToInspect.transform.gameObject);
+            }
         }
     }
 
