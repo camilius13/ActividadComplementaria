@@ -9,22 +9,28 @@ public class InspectionObjects : MonoBehaviour
 
     public float rotationSpeed = 100f;
 
+    public GameObject actualObject;
+
     private Vector3 previousMousePosition;
 
-    public 
+    
     
     void Update()
     {
         if (actualMode.Instance.isInspecting)
         {
-
+            inspectionMode();
         }
     }
 
-    public void inspect(GameObject Obj)
+    public void startInspection(ObjectInspectionable data)
     {
       
-        objectInspect = Obj.transform;
+       Debug.Log($"Inspeccionando: {data.category} ({data.description})");
+
+       if(actualObject != null) Destroy(actualObject);
+
+       actualObject = Instantiate(data.objectPrefab,objectInspect);
     
     }
     public void inspectionMode()

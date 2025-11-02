@@ -71,7 +71,9 @@ public class playerPickUpDrop : MonoBehaviour
 
             if (objectToInspect.transform.CompareTag("inspectObject")){
                 actualMode.Instance.IsInspecting(true);
-                inspectObject.inspect(objectToInspect.transform.gameObject);
+
+                inspectionData inspection = objectToInspect.collider.GetComponent<inspectionData>();
+                inspectObject.startInspection(inspection.getData());
             }
         }
     }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2447579693348403628}
   - component: {fileID: 6526248219333637429}
   - component: {fileID: 7338845206693071168}
+  - component: {fileID: 4026014444498326428}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -106,7 +107,24 @@ MonoBehaviour:
   pickupLayerMask:
     serializedVersion: 2
     m_Bits: 63
+  inspectObject: {fileID: 0}
   pickupDistance: 5
+  throwForce: 6
+--- !u!114 &4026014444498326428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439476263611609659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a98cafb8fe8d140967902b82cc8c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInspect: {fileID: 0}
+  rotationSpeed: 100
+  actualObject: {fileID: 0}
 --- !u!1 &4538302957670121580
 GameObject:
   m_ObjectHideFlags: 0
