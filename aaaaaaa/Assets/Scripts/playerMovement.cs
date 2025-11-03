@@ -26,6 +26,9 @@ public class playerMovement : MonoBehaviour
     
     public bool isGrounded;
     public bool isRunning;
+
+
+   
     
     void Start()
     {
@@ -73,6 +76,16 @@ public class playerMovement : MonoBehaviour
     }
 
 
+
+
+
+
+
+
+
+
+
+    //no hace nada - sexoooooooooo
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
