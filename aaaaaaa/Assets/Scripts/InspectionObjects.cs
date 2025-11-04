@@ -11,6 +11,9 @@ public class InspectionObjects : MonoBehaviour
     private float rotationX = 0f;
     private float rotationY = 0f;
 
+    private float actuRotationX;
+    private float actuRotationY;
+
     public float rotationSpeed = 100f;
 
     public float returnSpeed = 5f;
@@ -87,16 +90,18 @@ public class InspectionObjects : MonoBehaviour
 
             rotationX = deltaMousePosition.y * rotationSpeed * Time.deltaTime;
             rotationY = -deltaMousePosition.x * rotationSpeed * Time.deltaTime;
-            
-            Debug.Log(rotationX + ", " + rotationY);
 
+            Debug.Log(objectToInspect.localRotation.x +"," + objectToInspect.localRotation.y);
+            
+            
             //rotationX = Mathf.Clamp(rotationX, -1.5f, 1.5f);
             //rotationY = Mathf.Clamp(rotationY, -1.5f, 1.5f);
 
-            Debug.Log(rotationX + ", " + rotationY);
-
+            
             Quaternion rotation = Quaternion.Euler(rotationX, rotationY, 0);
-            objectToInspect.localRotation = rotation * objectToInspect.localRotation;
+            //objectToInspect.localRotation = rotation * objectToInspect.localRotation;
+
+            
 
             previousMousePosition = Input.mousePosition;
         }
