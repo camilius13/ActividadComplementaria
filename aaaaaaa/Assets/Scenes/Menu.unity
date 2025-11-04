@@ -556,6 +556,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 741206493842679717, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1981132
+      objectReference: {fileID: 0}
+    - target: {fileID: 741206493842679717, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.g
+      value: 0.12901102
+      objectReference: {fileID: 0}
+    - target: {fileID: 741206493842679717, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.r
+      value: 0.112887144
+      objectReference: {fileID: 0}
     - target: {fileID: 3560843454450950078, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Name
       value: CanvasMenu
@@ -564,6 +576,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 994296570}
+    - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.g
+      value: 0.11673466
+      objectReference: {fileID: 0}
+    - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.r
+      value: 0.08843004
+      objectReference: {fileID: 0}
     - target: {fileID: 7591316060677611543, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Pivot.x
       value: 0
