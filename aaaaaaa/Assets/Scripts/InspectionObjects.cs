@@ -86,9 +86,11 @@ public class InspectionObjects : MonoBehaviour
 
             rotationX = deltaMousePosition.y * rotationSpeed * Time.deltaTime;
             rotationY = -deltaMousePosition.x * rotationSpeed * Time.deltaTime;
+            
+            Debug.Log(rotationX + ", " + rotationY);
 
-            rotationX = Mathf.Clamp(rotationX, -45f, 45f);
-            rotationY = Mathf.Clamp(rotationY, -45f, 45f);
+            //rotationX = Mathf.Clamp(rotationX, -1.5f, 1.5f);
+            //rotationY = Mathf.Clamp(rotationY, -1.5f, 1.5f);
 
             Debug.Log(rotationX + ", " + rotationY);
 
