@@ -13643,7 +13643,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1874204895}
   - component: {fileID: 1874204897}
-  - component: {fileID: 1874204896}
   m_Layer: 6
   m_Name: "renderObjetosInspecci\xF3n"
   m_TagString: Untagged
@@ -13666,14 +13665,6 @@ Transform:
   m_Father: {fileID: 2113125221}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1874204896
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874204894}
-  m_Enabled: 1
 --- !u!20 &1874204897
 Camera:
   m_ObjectHideFlags: 0

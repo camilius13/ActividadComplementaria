@@ -47,6 +47,7 @@ public class InspectionObjects : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = false;
+        
 
         blur.enabled = true;
 
@@ -78,7 +79,7 @@ public class InspectionObjects : MonoBehaviour
         }
 
         
-
+        
         if(Input.GetMouseButton(0))
         {
             Vector3 deltaMousePosition = Input.mousePosition - previousMousePosition;
