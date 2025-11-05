@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab646df693c7e4642a0219e3575f813c, type: 3}
-  m_Name: tomaPalacio
+  m_Name: E.Rojas
   m_EditorClassIdentifier: 
-  category: casete
-  objectPrefab: {fileID: 6772661283069468563, guid: f8fcb25557995504a9bcc7df8bd7a995, type: 3}
-  description: Toma Palacio de Justicia
+  category: E.Rojas
+  objectPrefab: {fileID: 3793371307381030903, guid: a5f693d53abc9b54aa106b76dd59315b, type: 3}
+  description: es una carta

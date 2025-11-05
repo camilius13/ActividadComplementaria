@@ -17,16 +17,17 @@ public class objectGrabbable : MonoBehaviour
     {
         objectRigidbody = GetComponent<Rigidbody>();
 
+        // Intenta encontrar la cámara principal si no está asignada en el Inspector.
         if (playerCameraTransform == null)
         {
-            Camera mainCam = Camera.main; 
+            Camera mainCam = Camera.main;
             if (mainCam != null)
             {
                 playerCameraTransform = mainCam.transform;
             }
             else
             {
-                Debug.LogWarning("No se encontró una cámara");
+                Debug.LogWarning("No se encontró una cámara principal para la lógica de agarre.");
             }
         }
     }
@@ -48,6 +49,7 @@ public class objectGrabbable : MonoBehaviour
         this.objectGrabPointTransform = null;
         objectRigidbody.useGravity = true;
         objectRigidbody.isKinematic = false;
+        // Aplicar un pequeño impulso al soltar.
         objectRigidbody.AddForce(playerCameraTransform.forward * 1f, ForceMode.VelocityChange);
 
     }
@@ -55,8 +57,8 @@ public class objectGrabbable : MonoBehaviour
     public void Throw(float throwForce)
     {
         gameObject.transform.SetParent(null);
-        
-        
+
+
         objectRigidbody.useGravity = true;
         objectRigidbody.isKinematic = false;
         objectRigidbody.AddForce(playerCameraTransform.forward * throwForce, ForceMode.VelocityChange);
@@ -68,8 +70,7 @@ public class objectGrabbable : MonoBehaviour
     {
         if (objectGrabPointTransform != null)
         {
-            //Vector3 newPosition = Vector3.Lerp(transform.position, objectGrabPointTransform.position, Time.deltaTime * lerpSpeed);
-            //objectRigidbody.MovePosition(newPosition);
+            // Usar la asignación directa de posición para mantener el objeto exactamente en el punto de agarre.
             transform.position = objectGrabPointTransform.transform.position;
         }
     }

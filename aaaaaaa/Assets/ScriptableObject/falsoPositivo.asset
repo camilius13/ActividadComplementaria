@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: falsoPositivo
   m_EditorClassIdentifier: 
   category: casete
-  objectPrefab: {fileID: 3537390571891657682, guid: 272bd46f049d9be4b8e3c7eb1376b73b, type: 3}
+  objectPrefab: {fileID: 6150288058942572667, guid: 2479efad4d4e1e544bb287d1d75d6783, type: 3}
   description: video perdido del tratado de paz

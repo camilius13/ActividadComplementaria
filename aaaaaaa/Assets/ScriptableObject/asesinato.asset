@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: asesinato
   m_EditorClassIdentifier: 
   category: casete
-  objectPrefab: {fileID: 3537390571891657682, guid: 06d35f22b173c844abcef6c1d215163e, type: 3}
+  objectPrefab: {fileID: 8721374095451894973, guid: d73a589a48134404e9bd735b329f6bae, type: 3}
   description: Video datos Asesinato Jorge Eliecer Gaitan
