@@ -577,16 +577,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 994296570}
     - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_Color.a
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Color.b
-      value: 0.2264151
+      value: 0.1981132
       objectReference: {fileID: 0}
     - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Color.g
-      value: 0.11673466
+      value: 0.10899964
       objectReference: {fileID: 0}
     - target: {fileID: 7247306656711016256, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Color.r
-      value: 0.08843004
+      value: 0.08672124
       objectReference: {fileID: 0}
     - target: {fileID: 7591316060677611543, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_Pivot.x
@@ -671,6 +675,26 @@ PrefabInstance:
     - target: {fileID: 7591316060677611543, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8230268059677604369, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 161.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8230268059677604369, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -233.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416585638061242342, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 161.8802
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416585638061242342, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -259
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416585638061242342, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -233
       objectReference: {fileID: 0}
     - target: {fileID: 8679091116397039296, guid: b9303eaf47ae7964ebb98756b3c92b17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
