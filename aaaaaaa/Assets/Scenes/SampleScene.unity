@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -698, y: -244}
-  m_SizeDelta: {x: -1681.8604, y: -829.9376}
+  m_AnchoredPosition: {x: 114, y: -540}
+  m_SizeDelta: {x: -1681.8604, y: -1031.8018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11126304
 MonoBehaviour:
@@ -2873,11 +2873,11 @@ MonoBehaviour:
   videoPanel: {fileID: 754950932}
   videoClipsList:
   - id: 1
-    clip: {fileID: 32900000, guid: 7f8e0f20bff239d4b956e558d56957d5, type: 3}
+    clip: {fileID: 32900000, guid: 91a6f595b5fece948b71fba1d7da37c9, type: 3}
   - id: 2
     clip: {fileID: 32900000, guid: 01e54d7e416014e41954ed20446ef832, type: 3}
   - id: 3
-    clip: {fileID: 32900000, guid: 911aadc0be5fb41469676562a22720b8, type: 3}
+    clip: {fileID: 32900000, guid: b363307e8ff9d3d4a80e5c739b1c9e0e, type: 3}
   - id: 4
     clip: {fileID: 32900000, guid: 2d1094280db90d34dbc39552ff7fbfbd, type: 3}
 --- !u!850595691 &717067307
@@ -3075,7 +3075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &754950933
 RectTransform:
   m_ObjectHideFlags: 0
