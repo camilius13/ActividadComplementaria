@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 1060921447200859157}
   - component: {fileID: -8479000997705535922}
   - component: {fileID: 4481276804602379432}
+  - component: {fileID: 6339955933781879799}
   m_Layer: 7
   m_Name: Asesinato
   m_TagString: Untagged
@@ -551,6 +552,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.201477, y: 0.7014744, z: 3.7014735}
   m_Center: {x: 0, y: 0.000000074505806, z: -0.00000011920929}
+--- !u!114 &6339955933781879799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537390571891657682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3694f2bb05963f84ba68317abb195416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cassetteID: 0
 --- !u!1 &3719891726691656014
 GameObject:
   m_ObjectHideFlags: 0
